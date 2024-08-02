@@ -10,7 +10,7 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let ringwidth = 230 //beetween 160 and 300, default230
+let ringwidth = 230 //beetween 200 and 300, default230
 let ringheight = 40 //between 30 and 70, default40
 let planetrotation = 20 //between -80 and 80, default20
 let planetsize = 100 //between 70 and 120, default100
@@ -20,7 +20,7 @@ let planetXaxis = 125 //between 0 and 250, default125
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(true); //set this to false when you're ready to print
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 250;
@@ -29,19 +29,45 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(63, 73, 150); //dark blue
+  background(63, 73, 150); //dark blue 
 }
+
 
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let ringwidth = 230 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = -30 //between -80 and 80, default20
+let planetsize = 100 //between 70 and 120, default100
+let planetXaxis = 125 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 3:
+
+//your parameter variables go here!
+let ringwidth = 270 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = 80 //between -80 and 80, default20
+let planetsize = 70 //between 70 and 120, default100
+let planetXaxis = 125 //between 0 and 250, default125
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -49,7 +75,167 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 4:
+
+//your parameter variables go here!
+let ringwidth = 200 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = -40 //between -80 and 80, default20
+let planetsize = 120 //between 70 and 120, default100
+let planetXaxis = 125 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 5:
+
+//your parameter variables go here!
+let ringwidth = 260 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = -50 //between -80 and 80, default20
+let planetsize = 100 //between 70 and 120, default100
+let planetXaxis = 0 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 6:
+
+//your parameter variables go here!
+let ringwidth = 260 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = 15 //between -80 and 80, default20
+let planetsize = 90 //between 70 and 120, default100
+let planetXaxis = 125 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 7:
+
+//your parameter variables go here!
+let ringwidth = 260 //beetween 200 and 300, default230
+let ringheight = 60 //between 30 and 70, default40
+let planetrotation = -20 //between -80 and 80, default20
+let planetsize = 100 //between 70 and 120, default100
+let planetXaxis = 125 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 8:
+
+//your parameter variables go here!
+let ringwidth = 230 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = -80 //between -80 and 80, default20
+let planetsize = 90 //between 70 and 120, default100
+let planetXaxis = 60 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
+}
+
+
+Wallpaper 9:
+
+//your parameter variables go here!
+let ringwidth = 300 //beetween 200 and 300, default230
+let ringheight = 40 //between 30 and 70, default40
+let planetrotation = -60 //between -80 and 80, default20
+let planetsize = 90 //between 70 and 120, default100
+let planetXaxis = 125 //between 0 and 250, default125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(63, 73, 150); //dark blue 
 }

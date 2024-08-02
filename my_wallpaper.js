@@ -1,15 +1,15 @@
 //your parameter variables go here!
-let ringwidth = 230 //beetween 160 and 300, default230
+let ringwidth = 260 //beetween 200 and 300, default230
 let ringheight = 40 //between 30 and 70, default40
-let planetrotation = 20 //between -80 and 80, default20
-let planetsize = 100 //between 70 and 120, default100
+let planetrotation = 15 //between -80 and 80, default20
+let planetsize = 90 //between 70 and 120, default100
 let planetXaxis = 125 //between 0 and 250, default125
 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(true); //set this to false when you're ready to print
+  pWallpaper.resolution(A3);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 250;
@@ -18,7 +18,7 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(63, 73, 150); //dark blue
+  background(63, 73, 150); //dark blue 
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
@@ -40,10 +40,14 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
 
   ellipse(0,0,150,20) //ringinside
 
+  noFill()
+  ellipse(0,0,180,30)
+
   rotate(170) //keeps arc angled correctly
  
   fill(196, 115, 81) //light brown 
   arc(0,0,planetsize,planetsize,0,200,OPEN) //planettop
+
   pop();
  
 strokeWeight(0) //no outline for star
